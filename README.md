@@ -29,7 +29,3 @@
   
   ##
  
-<div> 
-  ![Snake animation](https://github.com/CristianoVieira1/CristianoVieira1/blob/main/workflows/github-contribution-grid-snake.svg)
- 
-</div>
