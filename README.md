@@ -18,9 +18,8 @@
 
 <p align="left">
   <a href="#" alt="Portfolio">
-  <img src="https://img.shields.io/badge/-Portfolio-4439a7?style=flat-square&labelColor=FF0000&logo=portfolio&logoColor=white&link=https://cristianovieira1.github.io/portfolio/" /></a>
+  <img src="https://img.shields.io/badge/-Portfolio-4439a7?style=flat-square&labelColor=4439a7&logo=portfolio&logoColor=white&link=https://cristianovieira1.github.io/portfolio/" /></a>
 
-<p align="left">
   <a href="#" alt="Gmail">
   <img src="https://img.shields.io/badge/-Gmail-FF0000?style=flat-square&labelColor=FF0000&logo=gmail&logoColor=white&link=cristianovieirati@gmail.com" /></a>
 
