@@ -5,7 +5,7 @@
 </p>
 
 <p align="left">
-  🦄 Linguagens: <strong>ANGULAR - REACT - FLUTTER - LARAVEL - CSS - SCSS.</strong>
+  🦄 Linguagens: <strong>ANGULAR - REACT - FLUTTER - LARAVEL - STYLED-COMPONENTS - CSS - SCSS.</strong>
 </p>
 
 <p align="left">
