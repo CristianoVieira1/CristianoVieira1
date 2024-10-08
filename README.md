@@ -13,7 +13,7 @@
 </p>
 
 <p align="left">
-  💌 Desenvolvedor front-end: ⤵️
+  💌 Desenvolvedor Mobile: ⤵️
 </p>
 
 <p align="left">
