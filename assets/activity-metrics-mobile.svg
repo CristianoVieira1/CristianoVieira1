@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="376" viewBox="0 0 400 376" role="img" aria-labelledby="title desc">
-  <title id="title">2.042 contribuições públicas nos últimos 12 meses</title>
-  <desc id="desc">Sequência pública atual: 0 dias. Última contribuição em 21 out 2026.</desc>
+  <title id="title">2.047 contribuições públicas nos últimos 12 meses</title>
+  <desc id="desc">Sequência pública atual: 2 dias. Última contribuição em 29 out 2026.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#38BDF8"/>
@@ -22,9 +22,9 @@
     <rect x="28" y="0" width="344" height="2" fill="url(#accent)" opacity="0.9"/>
     
         <text x="28" y="34" fill="#22D3EE" font-size="12" letter-spacing="1.8">ATIVIDADE PÚBLICA</text>
-        <text x="28" y="72" fill="#F8FAFC" font-size="34" font-weight="700">2.042</text><text x="28" y="98" fill="#94A3B8" font-size="15">Contribuições</text><text x="28" y="118" fill="#64748B" font-size="13">últimos 12 meses</text><text x="28" y="158" fill="#F8FAFC" font-size="34" font-weight="700">197</text><text x="28" y="184" fill="#94A3B8" font-size="15">Dias ativos</text><text x="28" y="204" fill="#64748B" font-size="13">com atividade pública</text><text x="28" y="244" fill="#F8FAFC" font-size="34" font-weight="700">40</text><text x="28" y="270" fill="#94A3B8" font-size="15">Maior sequência</text><text x="28" y="290" fill="#64748B" font-size="13">17 ago – 25 set 2026</text>
-        <text x="28" y="332" fill="#64748B" font-size="13">Sequência atual: 0 dias</text>
-        <text x="28" y="352" fill="#64748B" font-size="13">Última contribuição em 21 out 2026</text>
+        <text x="28" y="72" fill="#F8FAFC" font-size="34" font-weight="700">2.047</text><text x="28" y="98" fill="#94A3B8" font-size="15">Contribuições</text><text x="28" y="118" fill="#64748B" font-size="13">últimos 12 meses</text><text x="28" y="158" fill="#F8FAFC" font-size="34" font-weight="700">199</text><text x="28" y="184" fill="#94A3B8" font-size="15">Dias ativos</text><text x="28" y="204" fill="#64748B" font-size="13">com atividade pública</text><text x="28" y="244" fill="#F8FAFC" font-size="34" font-weight="700">40</text><text x="28" y="270" fill="#94A3B8" font-size="15">Maior sequência</text><text x="28" y="290" fill="#64748B" font-size="13">17 ago – 25 set 2026</text>
+        <text x="28" y="332" fill="#64748B" font-size="13">Sequência atual: 2 dias</text>
+        <text x="28" y="352" fill="#64748B" font-size="13">Última contribuição em 29 out 2026</text>
         
   </g>
   <rect x="0.75" y="0.75" width="398.5" height="374.5" rx="20" fill="none" stroke="#16304A"/>

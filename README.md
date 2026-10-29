@@ -116,7 +116,7 @@ O gráfico de linguagens conta os bytes que o GitHub detecta nos repositórios p
 </picture>
 
 <!-- activity:start -->
-<p align="center"><sub>2.042 contribuições públicas nos últimos 12 meses · 197 dias ativos · maior sequência de 40 dias (17 ago – 25 set 2026) · sequência atual de 0 dias · última contribuição em 21 out 2026</sub></p>
+<p align="center"><sub>2.047 contribuições públicas nos últimos 12 meses · 199 dias ativos · maior sequência de 40 dias (17 ago – 25 set 2026) · sequência atual de 2 dias · última contribuição em 29 out 2026</sub></p>
 <!-- activity:end -->
 
 <picture>
@@ -125,7 +125,7 @@ O gráfico de linguagens conta os bytes que o GitHub detecta nos repositórios p
 </picture>
 
 <!-- languages:start -->
-<p align="center"><sub>Participação das linguagens nos repositórios públicos, por bytes: Java 17% · Dart 16% · TypeScript 14% · CSS 11% · PHP 9% · SCSS 8%</sub></p>
+<p align="center"><sub>Participação das linguagens nos repositórios públicos, por bytes: Java 17% · TypeScript 16% · Dart 15% · CSS 11% · PHP 8% · SCSS 8%</sub></p>
 <!-- languages:end -->
 
 <img src="assets/contribution-grid.svg" width="100%" alt="Gráfico de contribuições públicas dos últimos 12 meses.">
