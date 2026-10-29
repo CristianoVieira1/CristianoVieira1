@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="228" viewBox="0 0 900 228" role="img" aria-labelledby="title desc">
+  <title id="title">2,042 public contributions in the last 12 months</title>
+  <desc id="desc">Current public streak: 0 days. Latest contribution Oct 21, 2026.</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38BDF8"/>
+      <stop offset="0.55" stop-color="#22D3EE"/>
+      <stop offset="1" stop-color="#8B5CF6"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#132033" stroke-width="1"/>
+    </pattern>
+    <clipPath id="panel"><rect width="900" height="228" rx="20"/></clipPath>
+    <style><![CDATA[
+      text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    ]]></style>
+  </defs>
+  <g clip-path="url(#panel)">
+    <rect width="900" height="228" fill="#080B14"/>
+    <rect width="900" height="228" fill="url(#grid)" opacity="0.4"/>
+    <rect x="28" y="0" width="844" height="2" fill="url(#accent)" opacity="0.9"/>
+    <text x="32" y="40" fill="#22D3EE" font-size="12" letter-spacing="2.2">PUBLIC ACTIVITY</text>
+<text x="868" y="40" text-anchor="end" fill="#64748B" font-size="12" letter-spacing="1.6">LAST 12 MONTHS</text>
+<text x="170" y="118" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700">2,042</text>
+<text x="170" y="150" text-anchor="middle" fill="#94A3B8" font-size="15">Contributions</text>
+<text x="170" y="172" text-anchor="middle" fill="#64748B" font-size="12">last 12 months</text>
+<text x="450" y="118" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700">197</text>
+<text x="450" y="150" text-anchor="middle" fill="#94A3B8" font-size="15">Active days</text>
+<text x="450" y="172" text-anchor="middle" fill="#64748B" font-size="12">with public activity</text>
+<text x="730" y="118" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700">40</text>
+<text x="730" y="150" text-anchor="middle" fill="#94A3B8" font-size="15">Longest streak</text>
+<text x="730" y="172" text-anchor="middle" fill="#64748B" font-size="12">Aug 17 – Sep 25, 2026</text>
+<text x="450" y="206" text-anchor="middle" fill="#64748B" font-size="13">Current public streak: 0 days. Latest contribution Oct 21, 2026.</text>
+  </g>
+  <rect x="0.75" y="0.75" width="898.5" height="226.5" rx="20" fill="none" stroke="#16304A"/>
+</svg>
