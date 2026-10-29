@@ -49,8 +49,16 @@ def esc(value: str) -> str:
     )
 
 
+MONTHS = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"]
+
+
 def pretty_day(iso: str) -> str:
-    return datetime.strptime(iso, "%Y-%m-%d").strftime("%b %-d, %Y")
+    day = datetime.strptime(iso, "%Y-%m-%d")
+    return f"{day.day} {MONTHS[day.month - 1]} {day.year}"
+
+
+def pt_int(value: int) -> str:
+    return f"{value:,}".replace(",", ".")
 
 
 def panel(width: int, height: int, title: str, desc: str, body: str) -> str:
@@ -151,8 +159,8 @@ def load_activity() -> tuple[list[dict], dict, list[tuple[str, int, float]]]:
 
 
 def metrics_svg(summary: dict, width: int, mobile: bool) -> str:
-    total = f"{summary['total']:,}"
-    active = f"{summary['active_days']:,}"
+    total = pt_int(summary["total"])
+    active = pt_int(summary["active_days"])
     longest = str(summary["longest"])
     latest = pretty_day(summary["latest"]) if summary["latest"] else "—"
     span = ""
@@ -160,19 +168,19 @@ def metrics_svg(summary: dict, width: int, mobile: bool) -> str:
         start = datetime.strptime(summary["longest_range"][0], "%Y-%m-%d")
         end = datetime.strptime(summary["longest_range"][1], "%Y-%m-%d")
         if start.year == end.year:
-            span = f"{start.strftime('%b %-d')} – {end.strftime('%b %-d, %Y')}"
+            span = f"{start.day} {MONTHS[start.month - 1]} – {end.day} {MONTHS[end.month - 1]} {end.year}"
         else:
             span = f"{pretty_day(summary['longest_range'][0])} – {pretty_day(summary['longest_range'][1])}"
     caption = (
-        f"Current public streak: {summary['current']} days. "
-        f"Latest contribution {latest}."
+        f"Sequência pública atual: {summary['current']} dias. "
+        f"Última contribuição em {latest}."
     )
-    title = f"{total} public contributions in the last 12 months"
+    title = f"{total} contribuições públicas nos últimos 12 meses"
     if mobile:
         rows = [
-            (total, "Contributions", "last 12 months"),
-            (active, "Active days", "with public activity"),
-            (longest, "Longest streak", span or "consecutive days"),
+            (total, "Contribuições", "últimos 12 meses"),
+            (active, "Dias ativos", "com atividade pública"),
+            (longest, "Maior sequência", span or "dias seguidos"),
         ]
         blocks = []
         y = 72
@@ -184,22 +192,22 @@ def metrics_svg(summary: dict, width: int, mobile: bool) -> str:
             )
             y += 86
         body = f"""
-        <text x="28" y="34" fill="#22D3EE" font-size="12" letter-spacing="1.8">PUBLIC ACTIVITY</text>
+        <text x="28" y="34" fill="#22D3EE" font-size="12" letter-spacing="1.8">ATIVIDADE PÚBLICA</text>
         {''.join(blocks)}
-        <text x="28" y="332" fill="#64748B" font-size="13">Current streak: {summary['current']} days</text>
-        <text x="28" y="352" fill="#64748B" font-size="13">Latest contribution {esc(latest)}</text>
+        <text x="28" y="332" fill="#64748B" font-size="13">Sequência atual: {summary['current']} dias</text>
+        <text x="28" y="352" fill="#64748B" font-size="13">Última contribuição em {esc(latest)}</text>
         """
         return panel(width, 376, title, caption, body)
 
     columns = [
-        (total, "Contributions", "last 12 months"),
-        (active, "Active days", "with public activity"),
-        (longest, "Longest streak", span or "consecutive days"),
+        (total, "Contribuições", "últimos 12 meses"),
+        (active, "Dias ativos", "com atividade pública"),
+        (longest, "Maior sequência", span or "dias seguidos"),
     ]
     centers = [170, 450, 730]
     parts = [
-        '<text x="32" y="40" fill="#22D3EE" font-size="12" letter-spacing="2.2">PUBLIC ACTIVITY</text>',
-        '<text x="868" y="40" text-anchor="end" fill="#64748B" font-size="12" letter-spacing="1.6">LAST 12 MONTHS</text>',
+        '<text x="32" y="40" fill="#22D3EE" font-size="12" letter-spacing="2.2">ATIVIDADE PÚBLICA</text>',
+        '<text x="868" y="40" text-anchor="end" fill="#64748B" font-size="12" letter-spacing="1.4">ÚLTIMOS 12 MESES</text>',
     ]
     for (value, label, hint), cx in zip(columns, centers):
         parts.append(f'<text x="{cx}" y="118" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700">{esc(value)}</text>')
@@ -211,10 +219,10 @@ def metrics_svg(summary: dict, width: int, mobile: bool) -> str:
 
 def languages_svg(ranked: list[tuple[str, int, float]], mobile: bool) -> str:
     shown = ranked[:6]
-    title = "Languages detected in public repositories, by bytes of code"
+    title = "Linguagens detectadas nos repositórios públicos, por bytes de código"
     shares = ", ".join(f"{name} {share:.0f}%" for name, _, share in shown)
     if mobile:
-        parts = ['<text x="24" y="34" fill="#22D3EE" font-size="12" letter-spacing="1.6">PUBLIC CODE</text>']
+        parts = ['<text x="24" y="34" fill="#22D3EE" font-size="12" letter-spacing="1.6">CÓDIGO PÚBLICO</text>']
         y = 68
         max_share = max((share for _, _, share in shown), default=1)
         for name, _, share in shown:
@@ -227,8 +235,8 @@ def languages_svg(ranked: list[tuple[str, int, float]], mobile: bool) -> str:
         return panel(400, y + 8, title, shares, "\n".join(parts))
 
     parts = [
-        '<text x="32" y="42" fill="#22D3EE" font-size="12" letter-spacing="2">PUBLIC REPOSITORIES</text>',
-        '<text x="868" y="42" text-anchor="end" fill="#64748B" font-size="12">BY BYTES OF CODE</text>',
+        '<text x="32" y="42" fill="#22D3EE" font-size="12" letter-spacing="1.6">REPOSITÓRIOS PÚBLICOS</text>',
+        '<text x="868" y="42" text-anchor="end" fill="#64748B" font-size="12">EM BYTES</text>',
     ]
     y = 86
     max_share = max((share for _, _, share in shown), default=1)
@@ -272,35 +280,35 @@ def contribution_grid(days: list[dict], summary: dict) -> str:
             y = origin_y + row * step
             cells.append(
                 f'<rect x="{x}" y="{y}" width="10" height="10" rx="2" fill="{color}">'
-                f'<title>{esc(pretty_day(item["date"]))}: {item["count"]} contributions</title></rect>'
+                f'<title>{esc(pretty_day(item["date"]))}: {item["count"]} contribuições</title></rect>'
             )
             if day.day <= 7 and (day.year, day.month) != last_month and x - last_label_x >= 32:
                 last_month = (day.year, day.month)
                 last_label_x = x
                 month_labels.append(
-                    f'<text x="{x}" y="16" fill="#64748B" font-size="11">{day.strftime("%b")}</text>'
+                    f'<text x="{x}" y="16" fill="#64748B" font-size="11">{MONTHS[day.month - 1]}</text>'
                 )
     width = origin_x + len(columns) * step + 24
     height = 168
-    day_labels = [(1, "Mon"), (3, "Wed"), (5, "Fri")]
+    day_labels = [(1, "Seg"), (3, "Qua"), (5, "Sex")]
     labels = [
         f'<text x="8" y="{origin_y + row * step + 9}" fill="#64748B" font-size="10">{name}</text>'
         for row, name in day_labels
     ]
     legend_x = width - 168
-    legend = [f'<text x="{legend_x}" y="154" fill="#64748B" font-size="11">Less</text>']
+    legend = [f'<text x="{legend_x}" y="154" fill="#64748B" font-size="11">Menos</text>']
     for index, color in enumerate(LEVELS):
         legend.append(
-            f'<rect x="{legend_x + 32 + index * 16}" y="145" width="10" height="10" rx="2" fill="{color}"/>'
+            f'<rect x="{legend_x + 46 + index * 16}" y="145" width="10" height="10" rx="2" fill="{color}"/>'
         )
-    legend.append(f'<text x="{legend_x + 116}" y="154" fill="#64748B" font-size="11">More</text>')
-    total = f"{summary['total']:,}"
-    desc = f"{total} public contributions from {pretty_day(days[0]['date'])} to {pretty_day(days[-1]['date'])}."
+    legend.append(f'<text x="{legend_x + 132}" y="154" fill="#64748B" font-size="11">Mais</text>')
+    total = pt_int(summary["total"])
+    desc = f"{total} contribuições públicas de {pretty_day(days[0]['date'])} a {pretty_day(days[-1]['date'])}."
     body = "\n".join(month_labels + labels + cells + legend)
     # Custom frame because the grid is wider than the standard metric panels and shorter.
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" role="img" aria-labelledby="title desc">
-  <title id="title">Public contribution graph</title>
+  <title id="title">Gráfico de contribuições públicas</title>
   <desc id="desc">{esc(desc)}</desc>
   <style><![CDATA[ text {{ font-family: {SANS}; }} ]]></style>
   <rect width="{width}" height="{height}" rx="20" fill="#080B14"/>
@@ -325,17 +333,22 @@ def caption(summary: dict, ranked: list[tuple[str, int, float]]) -> tuple[str, s
     latest = pretty_day(summary["latest"]) if summary["latest"] else "—"
     span = "—"
     if summary["longest_range"]:
-        span = f"{pretty_day(summary['longest_range'][0])} – {pretty_day(summary['longest_range'][1])}"
+        start = datetime.strptime(summary["longest_range"][0], "%Y-%m-%d")
+        end = datetime.strptime(summary["longest_range"][1], "%Y-%m-%d")
+        if start.year == end.year:
+            span = f"{start.day} {MONTHS[start.month - 1]} – {end.day} {MONTHS[end.month - 1]} {end.year}"
+        else:
+            span = f"{pretty_day(summary['longest_range'][0])} – {pretty_day(summary['longest_range'][1])}"
     activity = (
-        f'<p align="center"><sub>{summary["total"]:,} public contributions in the last 12 months'
-        f" · {summary['active_days']} active days"
-        f" · longest streak {summary['longest']} days ({span})"
-        f" · current streak {summary['current']} days"
-        f" · latest contribution {latest}</sub></p>"
+        f'<p align="center"><sub>{pt_int(summary["total"])} contribuições públicas nos últimos 12 meses'
+        f" · {summary['active_days']} dias ativos"
+        f" · maior sequência de {summary['longest']} dias ({span})"
+        f" · sequência atual de {summary['current']} dias"
+        f" · última contribuição em {latest}</sub></p>"
     )
     shares = " · ".join(f"{name} {share:.0f}%" for name, _, share in ranked[:6])
     languages = (
-        '<p align="center"><sub>Language share in public repositories, by bytes: '
+        "<p align=\"center\"><sub>Participação das linguagens nos repositórios públicos, por bytes: "
         f"{esc(shares)}</sub></p>"
     )
     return activity, languages

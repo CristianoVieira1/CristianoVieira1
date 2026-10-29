@@ -2,52 +2,52 @@
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/hero-mobile.svg">
-  <img src="assets/hero.svg" width="100%" alt="Cristiano Vieira, Senior Software Engineer. Mobile, Web, and Full Stack. Build. Innovate. Scale. Available for new opportunities.">
+  <img src="assets/hero.svg" width="100%" alt="Cristiano Vieira, engenheiro de software sênior. Mobile, Web e Full Stack. Construa. Inove. Escale. Disponível para novas oportunidades.">
 </picture>
 
 <br>
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/terminal-mobile.svg">
-  <img src="assets/terminal.svg" width="100%" alt="Terminal. whoami: Cristiano Vieira. Role: Senior Software Engineer. Specialization: React Native, React, TypeScript, and Node.js. Mission: building scalable digital experiences. Status: available for new opportunities.">
+  <img src="assets/terminal.svg" width="100%" alt="Terminal. Cristiano Vieira, engenheiro de software sênior, especializado em React Native, React, TypeScript e Node.js. Construindo experiências digitais escaláveis. Disponível para novas oportunidades.">
 </picture>
 
 </div>
 
-## About
+## Sobre
 
-I'm Cristiano Vieira, a Brazilian software engineer. I design and build mobile applications, web platforms, and the services behind them.
+Sou Cristiano Vieira, engenheiro de software brasileiro. Projeto e desenvolvo aplicações mobile, plataformas web e os serviços que sustentam esses produtos.
 
-The work runs the full length of a product: experience, client applications, APIs, integrations, and architecture. I care about systems that stay clear as they grow, and about software that holds up once people are using it.
+O trabalho cobre o caminho inteiro de um produto: experiência, aplicações, APIs, integrações e arquitetura. Me importo com sistemas que continuam claros enquanto crescem, e com software que se sustenta quando as pessoas passam a usá-lo.
 
-I founded and develop **[Jobtto](https://jobtto.com)**, a marketplace for hiring services and freelancers. I build **Orderflow**, an operating system for restaurants covering point of sale, delivery, and day-to-day operations. With **[Gaúcho Tech](https://gauchotech.com.br)**, I deliver applications, websites, and business systems.
+Fundei e desenvolvo o **[Jobtto](https://jobtto.com)**, um marketplace de contratação de serviços e freelancers. Desenvolvo o **Orderflow**, um sistema de gestão para restaurantes, com PDV, delivery e operação do dia a dia. Na **[Gaúcho Tech](https://gauchotech.com.br)**, entrego aplicativos, sites e sistemas.
 
-I'm available for new opportunities.
+Estou disponível para novas oportunidades.
 
 <div align="center">
 
-<img src="assets/digital-core.svg" width="280" alt="Digital Core. A holographic letter C, the signature mark of Cristiano Vieira.">
+<img src="assets/digital-core.svg" width="280" alt="Núcleo digital. A letra C em órbita, assinatura de Cristiano Vieira.">
 
 </div>
 
-## My Tech Universe
+## Meu universo técnico
 
-The surfaces I use to design, build, and ship.
+As frentes com que projeto, construo e entrego.
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/tech-universe-compact.svg">
-  <img src="assets/tech-universe.svg" width="100%" alt="Software engineering, organized as mobile, frontend, backend and cloud, and tools.">
+  <img src="assets/tech-universe.svg" width="100%" alt="Engenharia de software organizada em mobile, frontend, backend e cloud, e ferramentas.">
 </picture>
 
 <br>
 
-**Mobile engineering** — React Native, Expo, Android, iOS
+**Engenharia mobile** — React Native, Expo, Android, iOS
 
-**Frontend engineering** — React, Next.js, Angular, TypeScript
+**Engenharia frontend** — React, Next.js, Angular, TypeScript
 
-**Backend and cloud** — Node.js, Firebase, REST APIs
+**Backend e cloud** — Node.js, Firebase, APIs REST
 
-**Tools and engineering** — Git, GitHub, VS Code, Xcode, Android Studio
+**Ferramentas** — Git, GitHub, VS Code, Xcode, Android Studio
 
 <p align="center">
   <img src="https://img.shields.io/badge/React_Native-0B1220?style=flat-square&logo=react&logoColor=38BDF8" alt="React Native">
@@ -62,7 +62,7 @@ The surfaces I use to design, build, and ship.
 <p align="center">
   <img src="https://img.shields.io/badge/Node.js-0B1220?style=flat-square&logo=nodedotjs&logoColor=22D3EE" alt="Node.js">
   <img src="https://img.shields.io/badge/Firebase-0B1220?style=flat-square&logo=firebase&logoColor=F8FAFC" alt="Firebase">
-  <img src="https://img.shields.io/badge/REST_APIs-0B1220?style=flat-square" alt="REST APIs">
+  <img src="https://img.shields.io/badge/APIs_REST-0B1220?style=flat-square" alt="APIs REST">
   <img src="https://img.shields.io/badge/Git-0B1220?style=flat-square&logo=git&logoColor=38BDF8" alt="Git">
   <img src="https://img.shields.io/badge/GitHub-0B1220?style=flat-square&logo=github&logoColor=F8FAFC" alt="GitHub">
   <img src="https://img.shields.io/badge/VS_Code-0B1220?style=flat-square&logo=visualstudiocode&logoColor=38BDF8" alt="VS Code">
@@ -70,85 +70,85 @@ The surfaces I use to design, build, and ship.
   <img src="https://img.shields.io/badge/Android_Studio-0B1220?style=flat-square&logo=androidstudio&logoColor=38BDF8" alt="Android Studio">
 </p>
 
-## Featured projects
+## Projetos em destaque
 
-Selected products I founded, built, or ship.
+Produtos que fundei, construí ou mantenho.
 
-<img src="assets/project-jobtto.svg" width="100%" alt="Jobtto. Marketplace.">
+<img src="assets/project-jobtto.svg" width="100%" alt="Jobtto. Mercado de serviços.">
 
-**Jobtto** · Marketplace
+**Jobtto** · Mercado
 
-A marketplace for hiring services and freelancers. I founded it and build the product.
+Marketplace de contratação de serviços e freelancers. Eu fundei e desenvolvo o produto.
 
 [jobtto.com](https://jobtto.com)
 
-<img src="assets/project-orderflow.svg" width="100%" alt="Orderflow. Restaurant operations.">
+<img src="assets/project-orderflow.svg" width="100%" alt="Orderflow. Operação de restaurantes.">
 
-**Orderflow** · Operations
+**Orderflow** · Operação
 
-Restaurant management for point of sale, delivery, and daily operations.
+Gestão para restaurantes, com PDV, delivery e operação do dia a dia.
 
-<img src="assets/project-gauchotech.svg" width="100%" alt="Gaúcho Tech. Digital studio.">
+<img src="assets/project-gauchotech.svg" width="100%" alt="Gaúcho Tech. Estúdio digital.">
 
-**Gaúcho Tech** · Studio
+**Gaúcho Tech** · Estúdio
 
-Applications, websites, and business systems.
+Aplicativos, sites e sistemas para empresas.
 
 [gauchotech.com.br](https://gauchotech.com.br)
 
-<img src="assets/project-portfolio.svg" width="100%" alt="Portfolio. Selected work.">
+<img src="assets/project-portfolio.svg" width="100%" alt="Portfólio. Trabalhos pessoais.">
 
-**Portfolio** · Selected work
+**Portfólio** · Pessoal
 
-A personal archive of mobile and web projects.
+Arquivo pessoal de projetos mobile e web.
 
 [cristianovieira1.github.io/portfolio](https://cristianovieira1.github.io/portfolio/)
 
-## Developer intelligence
+## Atividade no GitHub
 
-Public GitHub activity only. Client work and private repositories are not included.
+Somente atividade pública. Trabalho de clientes e repositórios privados não entram aqui.
 
-The language chart counts bytes GitHub detects in public repositories. Project scaffolding can outweigh the TypeScript, React, and React Native code behind current products. The stack I ship with is the one in My Tech Universe.
+O gráfico de linguagens conta os bytes que o GitHub detecta nos repositórios públicos. Código de suporte dos projetos pode pesar mais do que o TypeScript, o React e o React Native dos produtos atuais. A stack com que eu entrego está em Meu universo técnico.
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/activity-metrics-mobile.svg">
-  <img src="assets/activity-metrics.svg" width="100%" alt="Public activity for the last 12 months: contributions, active days, and longest streak.">
+  <img src="assets/activity-metrics.svg" width="100%" alt="Atividade pública dos últimos 12 meses: contribuições, dias ativos e maior sequência.">
 </picture>
 
 <!-- activity:start -->
-<p align="center"><sub>2,042 public contributions in the last 12 months · 197 active days · longest streak 40 days (Aug 17, 2026 – Sep 25, 2026) · current streak 0 days · latest contribution Oct 21, 2026</sub></p>
+<p align="center"><sub>2.042 contribuições públicas nos últimos 12 meses · 197 dias ativos · maior sequência de 40 dias (17 ago – 25 set 2026) · sequência atual de 0 dias · última contribuição em 21 out 2026</sub></p>
 <!-- activity:end -->
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/languages-mobile.svg">
-  <img src="assets/languages.svg" width="100%" alt="Language share in public repositories, by bytes of code.">
+  <img src="assets/languages.svg" width="100%" alt="Participação das linguagens nos repositórios públicos, por bytes de código.">
 </picture>
 
 <!-- languages:start -->
-<p align="center"><sub>Language share in public repositories, by bytes: Java 17% · Dart 16% · TypeScript 14% · CSS 11% · PHP 9% · SCSS 8%</sub></p>
+<p align="center"><sub>Participação das linguagens nos repositórios públicos, por bytes: Java 17% · Dart 16% · TypeScript 14% · CSS 11% · PHP 9% · SCSS 8%</sub></p>
 <!-- languages:end -->
 
-<img src="assets/contribution-grid.svg" width="100%" alt="Public contribution graph for the last 12 months.">
+<img src="assets/contribution-grid.svg" width="100%" alt="Gráfico de contribuições públicas dos últimos 12 meses.">
 
 <!--
-  Snake animation
-  Run the "Generate contribution snake" workflow once. It commits assets/snake.svg.
-  Then uncomment the block below.
+  Animação da cobra
+  Rode o workflow "Gerar cobra de contribuições" uma vez. Ele grava assets/snake.svg.
+  Depois, descomente o bloco abaixo.
 
 <p align="center">
-  <img src="assets/snake.svg" width="100%" alt="Animated snake crossing Cristiano Vieira's public contribution graph.">
+  <img src="assets/snake.svg" width="100%" alt="Cobra animada percorrendo o gráfico de contribuições públicas de Cristiano Vieira.">
 </p>
 -->
 
 <div align="center">
 
-<h2>Let's turn ambitious ideas into powerful digital products.</h2>
+<h2>Vamos transformar ideias ambiciosas em produtos digitais sólidos.</h2>
 
-<a href="https://cristianovieira1.github.io/portfolio/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfolio"></a>
+<a href="https://cristianovieira1.github.io/portfolio/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfólio"></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/cristianobv/"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>
 &nbsp;&nbsp;
-<a href="mailto:cristianovieirati@gmail.com"><img src="assets/btn-email.svg" height="40" alt="Email"></a>
+<a href="mailto:cristianovieirati@gmail.com"><img src="assets/btn-email.svg" height="40" alt="E-mail"></a>
 &nbsp;&nbsp;
 <a href="https://github.com/CristianoVieira1"><img src="assets/btn-github.svg" height="40" alt="GitHub"></a>
 
@@ -156,7 +156,7 @@ The language chart counts bytes GitHub detects in public repositories. Project s
 
 <picture>
   <source media="(max-width: 768px)" srcset="assets/footer-mobile.svg">
-  <img src="assets/footer.svg" width="100%" alt="Designed and engineered by Cristiano Vieira.">
+  <img src="assets/footer.svg" width="100%" alt="Projetado e desenvolvido por Cristiano Vieira.">
 </picture>
 
 </div>

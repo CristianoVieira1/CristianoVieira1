@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300" role="img" aria-labelledby="title desc">
-  <title id="title">Languages detected in public repositories, by bytes of code</title>
+  <title id="title">Linguagens detectadas nos repositórios públicos, por bytes de código</title>
   <desc id="desc">Java 17%, Dart 16%, TypeScript 14%, CSS 11%, PHP 9%, SCSS 8%</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
@@ -20,8 +20,8 @@
     <rect width="900" height="300" fill="#080B14"/>
     <rect width="900" height="300" fill="url(#grid)" opacity="0.4"/>
     <rect x="28" y="0" width="844" height="2" fill="url(#accent)" opacity="0.9"/>
-    <text x="32" y="42" fill="#22D3EE" font-size="12" letter-spacing="2">PUBLIC REPOSITORIES</text>
-<text x="868" y="42" text-anchor="end" fill="#64748B" font-size="12">BY BYTES OF CODE</text>
+    <text x="32" y="42" fill="#22D3EE" font-size="12" letter-spacing="1.6">REPOSITÓRIOS PÚBLICOS</text>
+<text x="868" y="42" text-anchor="end" fill="#64748B" font-size="12">EM BYTES</text>
 <text x="32" y="86" fill="#F8FAFC" font-size="16">Java</text>
 <rect x="210" y="74" width="520" height="8" rx="4" fill="#10182A"/>
 <rect x="210" y="74" width="520.0" height="8" rx="4" fill="url(#accent)"/>

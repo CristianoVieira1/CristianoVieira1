@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="880" height="132" viewBox="0 0 880 132" role="img" aria-labelledby="title desc">
-  <title id="title">Designed and Engineered by Cristiano Vieira</title>
-  <desc id="desc">Closing signature of the Developer OS profile.</desc>
+  <title id="title">Projetado e desenvolvido por Cristiano Vieira</title>
+  <desc id="desc">Assinatura de encerramento do perfil.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38BDF8"/>
@@ -81,6 +81,6 @@ text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helveti
       <circle cx="458.0" cy="46" r="2.2" fill="#22D3EE"/>
     </g>
     <text x="440.0" y="52" text-anchor="middle" fill="url(#accent)" font-size="16" font-weight="700">C</text>
-    <text x="440.0" y="104" text-anchor="middle" fill="#94A3B8" font-size="16" letter-spacing="1.1">Designed &amp; Engineered by Cristiano Vieira</text>
+    <text x="440.0" y="104" text-anchor="middle" fill="#94A3B8" font-size="15" letter-spacing="0.3">Projetado e desenvolvido por Cristiano Vieira</text>
     
 </svg>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320" role="img" aria-labelledby="title desc">
-  <title id="title">Digital Core</title>
-  <desc id="desc">Signature monogram. A letter C orbited by rings and particles.</desc>
+  <title id="title">Núcleo digital</title>
+  <desc id="desc">Monograma de assinatura. A letra C orbitada por anéis e partículas.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38BDF8"/>

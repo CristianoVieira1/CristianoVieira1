@@ -1,4 +1,4 @@
-name: Generate contribution snake
+name: Gerar cobra de contribuições
 
 on:
   schedule:
@@ -14,18 +14,18 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Draw the snake from the public contribution graph
+      - name: Desenhar a cobra a partir do gráfico público
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             assets/snake.svg?color_snake=#8B5CF6&color_dots=#10182A,#155E75,#0891B2,#38BDF8,#C4B5FD
 
-      - name: Commit the updated snake
+      - name: Publicar a cobra atualizada
         run: |
           git add assets/snake.svg
           if git diff --cached --quiet; then
-            echo "Snake unchanged."
+            echo "Cobra sem alterações."
             exit 0
           fi
           git config user.name "github-actions[bot]"

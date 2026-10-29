@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="700" viewBox="0 0 400 700" role="img" aria-labelledby="title desc">
-  <title id="title">Cristiano Vieira — Senior Software Engineer</title>
-  <desc id="desc">Developer OS 2026. Mobile, Web, and Full Stack. Build. Innovate. Scale. Available for new opportunities.</desc>
+  <title id="title">Cristiano Vieira — Engenheiro de Software Sênior</title>
+  <desc id="desc">Perfil 2026. Mobile, Web e Full Stack. Construa. Inove. Escale. Disponível para novas oportunidades.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38BDF8"/>
@@ -95,22 +95,22 @@ text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helveti
 <circle class="motion drift" cx="60" cy="560" r="2.30" fill="#38BDF8" style="animation-duration:13.2s; animation-delay:-2.0s"/>
 <circle class="motion drift" cx="330" cy="520" r="1.40" fill="#22D3EE" style="animation-duration:14.8s; animation-delay:-1.5s"/>
 <circle class="motion drift" cx="200" cy="80" r="1.85" fill="#C4B5FD" style="animation-duration:16.4s; animation-delay:-3.0s"/>
-    <text x="24" y="48" fill="#94A3B8" font-size="12" letter-spacing="2.4">DEVELOPER OS</text>
+    <text x="24" y="48" fill="#94A3B8" font-size="12" letter-spacing="2.4">PERFIL</text>
     <text x="376" y="48" text-anchor="end" fill="#38BDF8" font-size="12" letter-spacing="1.8">2026</text>
     <text x="200" y="210" text-anchor="middle" fill="#38BDF8" font-size="42" font-weight="700" filter="url(#soft)" opacity="0.5">CRISTIANO</text>
     <text x="200" y="210" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700" letter-spacing="1">CRISTIANO</text>
     <text x="200" y="262" text-anchor="middle" fill="#38BDF8" font-size="42" font-weight="700" filter="url(#soft)" opacity="0.5">VIEIRA</text>
     <text x="200" y="262" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700" letter-spacing="3">VIEIRA</text>
-    <text x="200" y="318" text-anchor="middle" fill="#7DD3FC" font-size="18">Senior Software Engineer</text>
+    <text x="200" y="318" text-anchor="middle" fill="#7DD3FC" font-size="16">Engenheiro de Software Sênior</text>
     <rect x="28" y="352" width="108" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <rect x="146" y="352" width="78" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <rect x="234" y="352" width="140" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <text x="82" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">MOBILE</text>
     <text x="185" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">WEB</text>
     <text x="304" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">FULL STACK</text>
-    <text x="200" y="460" text-anchor="middle" fill="#E2E8F0" font-size="16" letter-spacing="0.8">Build. Innovate. Scale.</text>
-    <rect x="42" y="520" width="316" height="40" rx="20" fill="#0C1222" stroke="#1E3A5F"/>
-    <circle class="motion pulse" cx="68" cy="540" r="4.5" fill="#34D399"/>
-    <text x="84" y="545" fill="#E2E8F0" font-size="13">Available for new opportunities</text>
+    <text x="200" y="460" text-anchor="middle" fill="#E2E8F0" font-size="16" letter-spacing="0.4">Construa. Inove. Escale.</text>
+    <rect x="28" y="512" width="344" height="44" rx="22" fill="#0C1222" stroke="#1E3A5F"/>
+    <circle class="motion pulse" cx="50" cy="534" r="4.5" fill="#34D399"/>
+    <text x="64" y="539" fill="#E2E8F0" font-size="12">Disponível para novas oportunidades</text>
     
 </svg>

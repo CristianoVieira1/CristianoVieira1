@@ -196,21 +196,21 @@ def hero() -> None:
         (80, 320, "#22D3EE", 4), (980, 230, "#8B5CF6", 0.8), (470, 520, "#67E8F9", 3.2),
         (760, 500, "#38BDF8", 1.8), (390, 120, "#22D3EE", 2.2), (700, 430, "#8B5CF6", 4.4),
     ])}
-    <text x="48" y="58" fill="#94A3B8" font-size="13" letter-spacing="3.2">DEVELOPER OS</text>
+    <text x="48" y="58" fill="#94A3B8" font-size="13" letter-spacing="3.2">PERFIL</text>
     <text x="992" y="58" text-anchor="end" fill="#38BDF8" font-size="13" letter-spacing="2.4">2026</text>
     <text x="520" y="214" text-anchor="middle" fill="#38BDF8" font-size="54" font-weight="700" letter-spacing="1.5" filter="url(#soft)" opacity="0.45">CRISTIANO VIEIRA</text>
     <text x="520" y="214" text-anchor="middle" fill="#F8FAFC" font-size="54" font-weight="700" letter-spacing="1.5">CRISTIANO VIEIRA</text>
-    <text x="520" y="268" text-anchor="middle" fill="#7DD3FC" font-size="26" letter-spacing="0.6">Senior Software Engineer</text>
+    <text x="520" y="268" text-anchor="middle" fill="#7DD3FC" font-size="24" letter-spacing="0.4">Engenheiro de Software Sênior</text>
     {''.join(chip_svg)}
-    <text x="520" y="442" text-anchor="middle" fill="#E2E8F0" font-size="20" letter-spacing="2.2">Build. Innovate. Scale.</text>
-    <rect x="364" y="492" width="312" height="36" rx="18" fill="#0C1222" stroke="#1E3A5F"/>
-    <circle class="motion pulse" cx="390" cy="510" r="4.5" fill="#34D399"/>
-    <text x="406" y="515" fill="#E2E8F0" font-size="14">Available for new opportunities</text>
+    <text x="520" y="442" text-anchor="middle" fill="#E2E8F0" font-size="20" letter-spacing="1.4">Construa. Inove. Escale.</text>
+    <rect x="348" y="492" width="344" height="36" rx="18" fill="#0C1222" stroke="#1E3A5F"/>
+    <circle class="motion pulse" cx="374" cy="510" r="4.5" fill="#34D399"/>
+    <text x="390" y="515" fill="#E2E8F0" font-size="14">Disponível para novas oportunidades</text>
     """
     save("hero.svg", document(
         w, h,
-        "Cristiano Vieira — Senior Software Engineer",
-        "Developer OS 2026. Mobile, Web, and Full Stack. Build. Innovate. Scale. Available for new opportunities.",
+        "Cristiano Vieira — Engenheiro de Software Sênior",
+        "Perfil 2026. Mobile, Web e Full Stack. Construa. Inove. Escale. Disponível para novas oportunidades.",
         body,
     ))
 
@@ -229,28 +229,28 @@ def hero_mobile() -> None:
       <circle cx="200" cy="146" r="2.5" fill="#C4B5FD"/>
     </g>
     {particles([(40, 120, "#22D3EE", 0), (340, 160, "#8B5CF6", 1), (60, 560, "#38BDF8", 2), (330, 520, "#22D3EE", 1.5), (200, 80, "#C4B5FD", 3)])}
-    <text x="24" y="48" fill="#94A3B8" font-size="12" letter-spacing="2.4">DEVELOPER OS</text>
+    <text x="24" y="48" fill="#94A3B8" font-size="12" letter-spacing="2.4">PERFIL</text>
     <text x="376" y="48" text-anchor="end" fill="#38BDF8" font-size="12" letter-spacing="1.8">2026</text>
     <text x="200" y="210" text-anchor="middle" fill="#38BDF8" font-size="42" font-weight="700" filter="url(#soft)" opacity="0.5">CRISTIANO</text>
     <text x="200" y="210" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700" letter-spacing="1">CRISTIANO</text>
     <text x="200" y="262" text-anchor="middle" fill="#38BDF8" font-size="42" font-weight="700" filter="url(#soft)" opacity="0.5">VIEIRA</text>
     <text x="200" y="262" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700" letter-spacing="3">VIEIRA</text>
-    <text x="200" y="318" text-anchor="middle" fill="#7DD3FC" font-size="18">Senior Software Engineer</text>
+    <text x="200" y="318" text-anchor="middle" fill="#7DD3FC" font-size="16">Engenheiro de Software Sênior</text>
     <rect x="28" y="352" width="108" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <rect x="146" y="352" width="78" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <rect x="234" y="352" width="140" height="32" rx="16" fill="#0C1222" stroke="#1E3A5F"/>
     <text x="82" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">MOBILE</text>
     <text x="185" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">WEB</text>
     <text x="304" y="373" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="1">FULL STACK</text>
-    <text x="200" y="460" text-anchor="middle" fill="#E2E8F0" font-size="16" letter-spacing="0.8">Build. Innovate. Scale.</text>
-    <rect x="42" y="520" width="316" height="40" rx="20" fill="#0C1222" stroke="#1E3A5F"/>
-    <circle class="motion pulse" cx="68" cy="540" r="4.5" fill="#34D399"/>
-    <text x="84" y="545" fill="#E2E8F0" font-size="13">Available for new opportunities</text>
+    <text x="200" y="460" text-anchor="middle" fill="#E2E8F0" font-size="16" letter-spacing="0.4">Construa. Inove. Escale.</text>
+    <rect x="28" y="512" width="344" height="44" rx="22" fill="#0C1222" stroke="#1E3A5F"/>
+    <circle class="motion pulse" cx="50" cy="534" r="4.5" fill="#34D399"/>
+    <text x="64" y="539" fill="#E2E8F0" font-size="12">Disponível para novas oportunidades</text>
     """
     save("hero-mobile.svg", document(
         w, h,
-        "Cristiano Vieira — Senior Software Engineer",
-        "Developer OS 2026. Mobile, Web, and Full Stack. Build. Innovate. Scale. Available for new opportunities.",
+        "Cristiano Vieira — Engenheiro de Software Sênior",
+        "Perfil 2026. Mobile, Web e Full Stack. Construa. Inove. Escale. Disponível para novas oportunidades.",
         body,
     ))
 
@@ -277,14 +277,14 @@ def terminal() -> None:
     specs = [
         ("cmd", "$", "whoami"),
         ("out", ">", "Cristiano Vieira"),
-        ("cmd", "$", "current_role"),
-        ("out", ">", "Senior Software Engineer"),
-        ("cmd", "$", "specialization"),
+        ("cmd", "$", "cargo"),
+        ("out", ">", "Engenheiro de Software Sênior"),
+        ("cmd", "$", "especialidade"),
         ("out", ">", "React Native | React | TypeScript | Node.js"),
-        ("cmd", "$", "mission"),
-        ("out", ">", "Building scalable digital experiences."),
+        ("cmd", "$", "missão"),
+        ("out", ">", "Construindo experiências digitais escaláveis."),
         ("cmd", "$", "status"),
-        ("out", ">", "Available for new opportunities"),
+        ("out", ">", "Disponível para novas oportunidades"),
         ("cmd", "$", ""),
     ]
     w, h = 860, 460
@@ -293,14 +293,14 @@ def terminal() -> None:
     <circle cx="28" cy="28" r="6" fill="#F43F5E" fill-opacity="0.85"/>
     <circle cx="50" cy="28" r="6" fill="#F59E0B" fill-opacity="0.85"/>
     <circle cx="72" cy="28" r="6" fill="#34D399" fill-opacity="0.85"/>
-    <text class="mono" x="430" y="33" text-anchor="middle" fill="#94A3B8" font-size="13">cristiano@developer-os — zsh</text>
+    <text class="mono" x="430" y="33" text-anchor="middle" fill="#94A3B8" font-size="13">cristiano@perfil — zsh</text>
     <path d="M20 52 H840" stroke="#16304A"/>
     {terminal_lines(specs, 16, 92, 32)}
     """
     save("terminal.svg", document(
         w, h,
         "Terminal — Cristiano Vieira",
-        "whoami: Cristiano Vieira. current_role: Senior Software Engineer. specialization: React Native, React, TypeScript, Node.js. mission: Building scalable digital experiences. status: Available for new opportunities.",
+        "whoami: Cristiano Vieira. cargo: Engenheiro de Software Sênior. especialidade: React Native, React, TypeScript e Node.js. missão: construindo experiências digitais escaláveis. status: disponível para novas oportunidades.",
         body,
         reveal_css(len(specs)),
     ))
@@ -310,17 +310,17 @@ def terminal_mobile() -> None:
     specs = [
         ("cmd", "$", "whoami"),
         ("out", ">", "Cristiano Vieira"),
-        ("cmd", "$", "current_role"),
-        ("out", ">", "Senior Software Engineer"),
-        ("cmd", "$", "specialization"),
+        ("cmd", "$", "cargo"),
+        ("out", ">", "Engenheiro de Software Sênior"),
+        ("cmd", "$", "especialidade"),
         ("out", ">", "React Native | React"),
         ("out", ">", "TypeScript | Node.js"),
-        ("cmd", "$", "mission"),
-        ("out", ">", "Building scalable"),
-        ("out", ">", "digital experiences."),
+        ("cmd", "$", "missão"),
+        ("out", ">", "Construindo experiências"),
+        ("out", ">", "digitais escaláveis."),
         ("cmd", "$", "status"),
-        ("out", ">", "Available for new"),
-        ("out", ">", "opportunities"),
+        ("out", ">", "Disponível para novas"),
+        ("out", ">", "oportunidades"),
         ("cmd", "$", ""),
     ]
     w, h = 400, 620
@@ -329,14 +329,14 @@ def terminal_mobile() -> None:
     <circle cx="24" cy="26" r="5.5" fill="#F43F5E" fill-opacity="0.85"/>
     <circle cx="42" cy="26" r="5.5" fill="#F59E0B" fill-opacity="0.85"/>
     <circle cx="60" cy="26" r="5.5" fill="#34D399" fill-opacity="0.85"/>
-    <text class="mono" x="200" y="31" text-anchor="middle" fill="#94A3B8" font-size="12">developer-os — zsh</text>
+    <text class="mono" x="200" y="31" text-anchor="middle" fill="#94A3B8" font-size="12">perfil — zsh</text>
     <path d="M16 48 H384" stroke="#16304A"/>
     {terminal_lines(specs, 15, 84, 36)}
     """
     save("terminal-mobile.svg", document(
         w, h,
         "Terminal — Cristiano Vieira",
-        "whoami: Cristiano Vieira. current_role: Senior Software Engineer. specialization: React Native, React, TypeScript, Node.js. mission: Building scalable digital experiences. status: Available for new opportunities.",
+        "whoami: Cristiano Vieira. cargo: Engenheiro de Software Sênior. especialidade: React Native, React, TypeScript e Node.js. missão: construindo experiências digitais escaláveis. status: disponível para novas oportunidades.",
         body,
         reveal_css(len(specs)),
     ))
@@ -367,8 +367,8 @@ def digital_core() -> None:
     """
     save("digital-core.svg", document(
         w, h,
-        "Digital Core",
-        "Signature monogram. A letter C orbited by rings and particles.",
+        "Núcleo digital",
+        "Monograma de assinatura. A letra C orbitada por anéis e partículas.",
         body,
     ))
 
@@ -400,28 +400,28 @@ def tech_universe() -> None:
       <circle cx="480" cy="206" r="2.8" fill="#C4B5FD"/>
     </g>
     <path d="M480 248 V192 M480 388 V466 M410 318 H374 M550 318 H586" stroke="#164E63" fill="none"/>
-    {glass_card(255, 16, 450, 176, "MOBILE ENGINEERING", ["React Native", "Expo", "Android", "iOS"])}
-    {glass_card(586, 214, 352, 208, "FRONTEND ENGINEERING", ["React", "Next.js", "Angular", "TypeScript"])}
-    {glass_card(255, 466, 450, 150, "BACKEND & CLOUD", ["Node.js", "Firebase", "REST APIs"], 16)}
-    {glass_card(22, 203, 352, 230, "TOOLS & ENGINEERING", ["Git", "GitHub", "VS Code", "Xcode", "Android Studio"])}
+    {glass_card(255, 16, 450, 176, "ENGENHARIA MOBILE", ["React Native", "Expo", "Android", "iOS"])}
+    {glass_card(586, 214, 352, 208, "ENGENHARIA FRONTEND", ["React", "Next.js", "Angular", "TypeScript"])}
+    {glass_card(255, 466, 450, 150, "BACKEND E CLOUD", ["Node.js", "Firebase", "APIs REST"], 16)}
+    {glass_card(22, 203, 352, 230, "FERRAMENTAS", ["Git", "GitHub", "VS Code", "Xcode", "Android Studio"])}
     <circle cx="480" cy="318" r="70" fill="#080B14" stroke="url(#accent)" stroke-width="1.5"/>
-    <text x="480" y="312" text-anchor="middle" fill="#94A3B8" font-size="11" letter-spacing="1.6">SOFTWARE</text>
-    <text x="480" y="332" text-anchor="middle" fill="#F8FAFC" font-size="13" letter-spacing="1.1">ENGINEERING</text>
+    <text x="480" y="310" text-anchor="middle" fill="#94A3B8" font-size="11" letter-spacing="1.2">ENGENHARIA</text>
+    <text x="480" y="330" text-anchor="middle" fill="#F8FAFC" font-size="12" letter-spacing="0.6">DE SOFTWARE</text>
     """
     save("tech-universe.svg", document(
         w, h,
-        "My Tech Universe",
-        "Software engineering across mobile, frontend, backend and cloud, and tools.",
+        "Meu universo técnico",
+        "Engenharia de software em mobile, frontend, backend, cloud e ferramentas.",
         body,
     ))
 
 
 def tech_compact() -> None:
     cards = [
-        ("MOBILE ENGINEERING", ["React Native", "Expo", "Android", "iOS"]),
-        ("FRONTEND ENGINEERING", ["React", "Next.js", "Angular", "TypeScript"]),
-        ("BACKEND & CLOUD", ["Node.js", "Firebase", "REST APIs"]),
-        ("TOOLS & ENGINEERING", ["Git", "GitHub", "VS Code", "Xcode", "Android Studio"]),
+        ("ENGENHARIA MOBILE", ["React Native", "Expo", "Android", "iOS"]),
+        ("ENGENHARIA FRONTEND", ["React", "Next.js", "Angular", "TypeScript"]),
+        ("BACKEND E CLOUD", ["Node.js", "Firebase", "APIs REST"]),
+        ("FERRAMENTAS", ["Git", "GitHub", "VS Code", "Xcode", "Android Studio"]),
     ]
     y = 0
     blocks = []
@@ -432,8 +432,8 @@ def tech_compact() -> None:
         y += height + gap
     save("tech-universe-compact.svg", document(
         400, y - gap,
-        "My Tech Universe",
-        "Software engineering across mobile, frontend, backend and cloud, and tools.",
+        "Meu universo técnico",
+        "Engenharia de software em mobile, frontend, backend, cloud e ferramentas.",
         "\n".join(blocks),
     ))
 
@@ -457,9 +457,9 @@ def project_card(filename: str, index: str, category: str, name: str, summary: s
 
 def buttons() -> None:
     labels = [
-        ("btn-portfolio.svg", "Portfolio", 156),
+        ("btn-portfolio.svg", "Portfólio", 156),
         ("btn-linkedin.svg", "LinkedIn", 150),
-        ("btn-email.svg", "Email", 128),
+        ("btn-email.svg", "E-mail", 132),
         ("btn-github.svg", "GitHub", 140),
     ]
     for filename, label, width in labels:
@@ -479,12 +479,12 @@ def footer(filename: str, width: int, height: int, title_size: int) -> None:
       <circle cx="{width / 2 + 18}" cy="46" r="2.2" fill="#22D3EE"/>
     </g>
     <text x="{width / 2}" y="52" text-anchor="middle" fill="url(#accent)" font-size="16" font-weight="700">C</text>
-    <text x="{width / 2}" y="{height - 28}" text-anchor="middle" fill="#94A3B8" font-size="{title_size}" letter-spacing="1.1">Designed &amp; Engineered by Cristiano Vieira</text>
+    <text x="{width / 2}" y="{height - 28}" text-anchor="middle" fill="#94A3B8" font-size="{title_size}" letter-spacing="0.3">Projetado e desenvolvido por Cristiano Vieira</text>
     """
     save(filename, document(
         width, height,
-        "Designed and Engineered by Cristiano Vieira",
-        "Closing signature of the Developer OS profile.",
+        "Projetado e desenvolvido por Cristiano Vieira",
+        "Assinatura de encerramento do perfil.",
         body,
     ))
 
@@ -499,24 +499,24 @@ def main() -> None:
     tech_universe()
     tech_compact()
     project_card(
-        "project-jobtto.svg", "01", "MARKETPLACE", "JOBTTO",
-        "Marketplace for hiring services and freelancers. Founded and engineered by Cristiano Vieira.",
+        "project-jobtto.svg", "01", "MERCADO", "JOBTTO",
+        "Marketplace de contratação de serviços e freelancers. Fundado e desenvolvido por Cristiano Vieira.",
     )
     project_card(
-        "project-orderflow.svg", "02", "OPERATIONS", "ORDERFLOW",
-        "Restaurant management for point of sale, delivery, and daily operations.",
+        "project-orderflow.svg", "02", "OPERAÇÃO", "ORDERFLOW",
+        "Gestão para restaurantes, com PDV, delivery e operação do dia a dia.",
     )
     project_card(
-        "project-gauchotech.svg", "03", "STUDIO", "GAÚCHO TECH",
-        "Digital studio for applications, websites, and business systems.",
+        "project-gauchotech.svg", "03", "ESTÚDIO", "GAÚCHO TECH",
+        "Estúdio digital de aplicativos, sites e sistemas.",
     )
     project_card(
-        "project-portfolio.svg", "04", "SELECTED WORK", "PORTFOLIO",
-        "Personal portfolio of mobile and web work.",
+        "project-portfolio.svg", "04", "PESSOAL", "PORTFÓLIO",
+        "Portfólio pessoal de trabalho mobile e web.",
     )
     buttons()
-    footer("footer.svg", 880, 132, 16)
-    footer("footer-mobile.svg", 400, 120, 13)
+    footer("footer.svg", 880, 132, 15)
+    footer("footer-mobile.svg", 400, 128, 12)
     print("static svgs written")
 
 

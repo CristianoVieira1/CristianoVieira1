@@ -1,4 +1,4 @@
-name: Refresh public activity
+name: Atualizar atividade pública
 
 on:
   schedule:
@@ -18,16 +18,16 @@ jobs:
         with:
           python-version: "3.12"
 
-      - name: Rebuild activity, language, and contribution graphics
+      - name: Reconstruir os gráficos de atividade, linguagens e contribuições
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python3 .github/scripts/generate_activity.py
 
-      - name: Commit refreshed graphics
+      - name: Publicar os gráficos atualizados
         run: |
           git add assets/activity-metrics.svg assets/activity-metrics-mobile.svg assets/languages.svg assets/languages-mobile.svg assets/contribution-grid.svg .github/scripts/language-cache.json README.md
           if git diff --cached --quiet; then
-            echo "Activity unchanged."
+            echo "Atividade sem alterações."
             exit 0
           fi
           git config user.name "github-actions[bot]"

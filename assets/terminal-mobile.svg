@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="400" height="620" viewBox="0 0 400 620" role="img" aria-labelledby="title desc">
   <title id="title">Terminal — Cristiano Vieira</title>
-  <desc id="desc">whoami: Cristiano Vieira. current_role: Senior Software Engineer. specialization: React Native, React, TypeScript, Node.js. mission: Building scalable digital experiences. status: Available for new opportunities.</desc>
+  <desc id="desc">whoami: Cristiano Vieira. cargo: Engenheiro de Software Sênior. especialidade: React Native, React, TypeScript e Node.js. missão: construindo experiências digitais escaláveis. status: disponível para novas oportunidades.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0" stop-color="#38BDF8"/>
@@ -162,21 +162,21 @@ text { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helveti
     <circle cx="24" cy="26" r="5.5" fill="#F43F5E" fill-opacity="0.85"/>
     <circle cx="42" cy="26" r="5.5" fill="#F59E0B" fill-opacity="0.85"/>
     <circle cx="60" cy="26" r="5.5" fill="#34D399" fill-opacity="0.85"/>
-    <text class="mono" x="200" y="31" text-anchor="middle" fill="#94A3B8" font-size="12">developer-os — zsh</text>
+    <text class="mono" x="200" y="31" text-anchor="middle" fill="#94A3B8" font-size="12">perfil — zsh</text>
     <path d="M16 48 H384" stroke="#16304A"/>
     <g class="motion ln l0"><text class="mono" x="36" y="84" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="84" fill="#F8FAFC" font-size="15">whoami</text></g>
 <g class="motion ln l1"><text class="mono" x="36" y="120" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="120" fill="#E2E8F0" font-size="15">Cristiano Vieira</text></g>
-<g class="motion ln l2"><text class="mono" x="36" y="156" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="156" fill="#F8FAFC" font-size="15">current_role</text></g>
-<g class="motion ln l3"><text class="mono" x="36" y="192" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="192" fill="#E2E8F0" font-size="15">Senior Software Engineer</text></g>
-<g class="motion ln l4"><text class="mono" x="36" y="228" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="228" fill="#F8FAFC" font-size="15">specialization</text></g>
+<g class="motion ln l2"><text class="mono" x="36" y="156" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="156" fill="#F8FAFC" font-size="15">cargo</text></g>
+<g class="motion ln l3"><text class="mono" x="36" y="192" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="192" fill="#E2E8F0" font-size="15">Engenheiro de Software Sênior</text></g>
+<g class="motion ln l4"><text class="mono" x="36" y="228" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="228" fill="#F8FAFC" font-size="15">especialidade</text></g>
 <g class="motion ln l5"><text class="mono" x="36" y="264" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="264" fill="#E2E8F0" font-size="15">React Native | React</text></g>
 <g class="motion ln l6"><text class="mono" x="36" y="300" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="300" fill="#E2E8F0" font-size="15">TypeScript | Node.js</text></g>
-<g class="motion ln l7"><text class="mono" x="36" y="336" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="336" fill="#F8FAFC" font-size="15">mission</text></g>
-<g class="motion ln l8"><text class="mono" x="36" y="372" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="372" fill="#E2E8F0" font-size="15">Building scalable</text></g>
-<g class="motion ln l9"><text class="mono" x="36" y="408" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="408" fill="#E2E8F0" font-size="15">digital experiences.</text></g>
+<g class="motion ln l7"><text class="mono" x="36" y="336" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="336" fill="#F8FAFC" font-size="15">missão</text></g>
+<g class="motion ln l8"><text class="mono" x="36" y="372" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="372" fill="#E2E8F0" font-size="15">Construindo experiências</text></g>
+<g class="motion ln l9"><text class="mono" x="36" y="408" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="408" fill="#E2E8F0" font-size="15">digitais escaláveis.</text></g>
 <g class="motion ln l10"><text class="mono" x="36" y="444" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="444" fill="#F8FAFC" font-size="15">status</text></g>
-<g class="motion ln l11"><text class="mono" x="36" y="480" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="480" fill="#E2E8F0" font-size="15">Available for new</text></g>
-<g class="motion ln l12"><text class="mono" x="36" y="516" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="516" fill="#E2E8F0" font-size="15">opportunities</text></g>
+<g class="motion ln l11"><text class="mono" x="36" y="480" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="480" fill="#E2E8F0" font-size="15">Disponível para novas</text></g>
+<g class="motion ln l12"><text class="mono" x="36" y="516" fill="#C4B5FD" font-size="15">&gt;</text><text class="mono" x="62" y="516" fill="#E2E8F0" font-size="15">oportunidades</text></g>
 <g class="motion ln l13"><text class="mono" x="36" y="552" fill="#22D3EE" font-size="15">$</text><text class="mono" x="62" y="552" fill="#F8FAFC" font-size="15"></text><rect class="motion caret" x="62" y="539" width="9" height="15" rx="1" fill="#22D3EE"/></g>
     
 </svg>
