@@ -116,7 +116,7 @@ O gráfico de linguagens conta os bytes que o GitHub detecta nos repositórios p
 </picture>
 
 <!-- activity:start -->
-<p align="center"><sub>2.047 contribuições públicas nos últimos 12 meses · 199 dias ativos · maior sequência de 40 dias (17 ago – 25 set 2026) · sequência atual de 2 dias · última contribuição em 29 out 2026</sub></p>
+<p align="center"><sub>2.047 contribuições públicas nos últimos 12 meses · 199 dias ativos · maior sequência de 40 dias (17 ago – 25 set 2026) · sequência atual de 0 dias · última contribuição em 29 out 2026</sub></p>
 <!-- activity:end -->
 
 <picture>

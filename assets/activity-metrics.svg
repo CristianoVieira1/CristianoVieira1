@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="228" viewBox="0 0 900 228" role="img" aria-labelledby="title desc">
   <title id="title">2.047 contribuições públicas nos últimos 12 meses</title>
-  <desc id="desc">Sequência pública atual: 2 dias. Última contribuição em 29 out 2026.</desc>
+  <desc id="desc">Sequência pública atual: 0 dias. Última contribuição em 29 out 2026.</desc>
   <defs>
     <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#38BDF8"/>
@@ -31,7 +31,7 @@
 <text x="730" y="118" text-anchor="middle" fill="#F8FAFC" font-size="42" font-weight="700">40</text>
 <text x="730" y="150" text-anchor="middle" fill="#94A3B8" font-size="15">Maior sequência</text>
 <text x="730" y="172" text-anchor="middle" fill="#64748B" font-size="12">17 ago – 25 set 2026</text>
-<text x="450" y="206" text-anchor="middle" fill="#64748B" font-size="13">Sequência pública atual: 2 dias. Última contribuição em 29 out 2026.</text>
+<text x="450" y="206" text-anchor="middle" fill="#64748B" font-size="13">Sequência pública atual: 0 dias. Última contribuição em 29 out 2026.</text>
   </g>
   <rect x="0.75" y="0.75" width="898.5" height="226.5" rx="20" fill="none" stroke="#16304A"/>
 </svg>
