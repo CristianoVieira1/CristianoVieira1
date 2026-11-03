@@ -1,0 +1,46 @@
+[
+  {
+    "id": "jobtto",
+    "name": "Jobtto",
+    "category": "MARKETPLACE DE SERVIÇOS",
+    "role": "Founder & Software Developer",
+    "lines": [
+      "Conectando clientes a profissionais",
+      "e freelancers."
+    ],
+    "url": "https://jobtto.com"
+  },
+  {
+    "id": "orderflow",
+    "name": "Orderflow",
+    "category": "OPERAÇÃO DE RESTAURANTES",
+    "role": "Desenvolvimento de software",
+    "lines": [
+      "Gestão de restaurantes,",
+      "PDV e delivery."
+    ],
+    "url": null
+  },
+  {
+    "id": "gauchotech",
+    "name": "Gaúcho Tech",
+    "category": "SOLUÇÕES DIGITAIS",
+    "role": "Aplicativos · Websites · Sistemas",
+    "lines": [
+      "Software para as necessidades",
+      "de cada negócio."
+    ],
+    "url": "https://gauchotech.com.br"
+  },
+  {
+    "id": "portfolio",
+    "name": "Portfólio",
+    "category": "PROJETOS & TRAJETÓRIA",
+    "role": "Mobile & Web",
+    "lines": [
+      "Uma seleção de trabalhos",
+      "e experiência profissional."
+    ],
+    "url": "https://cristianovieira1.github.io/portfolio/"
+  }
+]

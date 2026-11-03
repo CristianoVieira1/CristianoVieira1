@@ -1,36 +1,37 @@
-name: Atualizar atividade pública
+name: Atualizar estatísticas do perfil
 
 on:
   schedule:
-    - cron: "15 5 * * *"
+    - cron: '15 5 * * *'
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
+
+concurrency:
+  group: profile-generated-assets
+  cancel-in-progress: false
 
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Reconstruir os gráficos de atividade, linguagens e contribuições
+          python-version: '3.12'
+      - name: Gerar cards a partir das APIs oficiais do GitHub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python3 .github/scripts/generate_activity.py
-
-      - name: Publicar os gráficos atualizados
+        run: python3 .github/scripts/update_activity.py
+      - name: Publicar apenas os cards gerados
         run: |
-          git add assets/activity-metrics.svg assets/activity-metrics-mobile.svg assets/languages.svg assets/languages-mobile.svg assets/contribution-grid.svg .github/scripts/language-cache.json README.md
-          if git diff --cached --quiet; then
-            echo "Atividade sem alterações."
-            exit 0
-          fi
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "chore: refresh public GitHub activity"
+          git add assets/stats/
+          if git diff --cached --quiet; then exit 0; fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: update profile statistics'
           git push
