@@ -102,7 +102,7 @@ Aplicativos, sites e sistemas para empresas.
 
 Arquivo pessoal de projetos mobile e web.
 
-[cristianovieira1.github.io/portfolio](https://cristianovieira1.github.io/portfolio/)
+[https://cristianoborges.dev/](https://cristianoborges.dev/)
 
 ## Atividade no GitHub
 
@@ -144,7 +144,7 @@ O gráfico de linguagens conta os bytes que o GitHub detecta nos repositórios p
 
 <h2>Vamos transformar ideias ambiciosas em produtos digitais sólidos.</h2>
 
-<a href="https://cristianovieira1.github.io/portfolio/"><img src="assets/btn-portfolio.svg" height="40" alt="Portfólio"></a>
+<a href="https://cristianoborges.dev//"><img src="assets/btn-portfolio.svg" height="40" alt="Portfólio"></a>
 &nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/cristianobv/"><img src="assets/btn-linkedin.svg" height="40" alt="LinkedIn"></a>
 &nbsp;&nbsp;
